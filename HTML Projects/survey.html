@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Employee Interests Survey</title>
+</head>
+<style>
+body {background-color: #ebf6f5;}
+h1 {color: #5cbdb9}
+p {color: #161748}
+</style>
+
+<body>
+    <div class = "center" style="font-size: x-large">
+        <center><h1 class = "demo-shadow">Employee Interests Survey</h1></center>
+        <label for="Name" size = 30>Enter your name:</label>
+        <input type = "text" id="Name" name= "name" size="30" style="font-size: large">
+        <br>
+        <br>
+        <label for="Department" size = 30>Enter your department:</label>
+        <input type = "text" id="Name" name= "Department" size="30" style="font-size: large">
+        <br>
+        <br>
+        <label for="comments">Tell us a bit about 
+            yourself: 
+        </label>
+        <textarea name = "comments" cols=40 rows="5" wrap="off" style = "resize: none;"></textarea>
+        <br>
+        <br>
+        <div>
+            <label for="choice-radio">Do you exercise at home? </label>
+            <label>
+                <input type="radio" name="choice-radio">
+                Yes
+            </label>
+            <label>
+                <input type="radio" name="choice-radio">
+                No
+            </label>
+        </div>
+        <br>
+        <div class="demo-help">
+            <label>
+              How do you like to read about your favourite topics?
+              <select style="font-size: large">
+                <option value="">---</option>
+                <option value="">Books</option>
+                <option value="">Online resources</option>
+                <option value="">Phone apps</option>
+              </select>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+              What Genre of movie do you like?
+            </label>
+            <br>
+              <input type="checkbox">
+              Comedy
+              <input type="checkbox">
+              Action
+              <input type="checkbox">
+              Thriller
+        </div>
+        <br>
+        <input type=submit value="Submit form" style = "font-size:xx-large">
+    </div>
+</body>
+</html>
+
